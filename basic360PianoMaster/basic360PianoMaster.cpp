@@ -20,9 +20,13 @@ from July 29th - GITHUB
 
 
 
+
+
 /// This sketch code is based on the RPLIDAR driver library provided by RoboPeak
+
 #include <RPLidar.h>
 #include <FastLED.h>
+#include <Arduino.h>
 
 // You need to create an driver instance 
 RPLidar lidar;
@@ -30,7 +34,7 @@ CRGB leds[16];
 
 // Change the pin mapping based on your needs.
 /////////////////////////////////////////////////////////////////////////////
-#define LED_ENABLE  12 // The GPIO pin for the RGB led's common lead. 
+//#define LED_ENABLE  12 // The GPIO pin for the RGB led's common lead. 
 #define RPLIDAR_MOTOR 3 // The PWM pin for control the speed of RPLIDAR's motor.
 // This pin should connected with the RPLIDAR's MOTOCTRL signal 
 //////////////////////////////////////////////////////////////////////////////
