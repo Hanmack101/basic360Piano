@@ -7,6 +7,7 @@
                 "${workspaceFolder}",
                 "/Users/hannahmackaness/Documents/Arduino/basic360Piano",
                 "/Users/**",
+                "/Users/hannahmackaness/.platformio/packages/framework-arduinoteensy/libraries/FastLED",
                 "/Users/hannahmackaness/.platformio/packages/framework-arduinoteensy/libraries/FastLED"
             ],
             "defines": [],
